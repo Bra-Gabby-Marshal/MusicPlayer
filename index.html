@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+		<meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <meta http-equiv="X-UA-Compatible" content="ie=s=edge">
+        <link 
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+		<link rel="stylesheet" href="style.css"/>
+		<title>Marshal's Music Player</title>
+		</head>
+		
+	    <body>
+		<div class="player">
+		<div class="container"> 
+		
+		<!-- =============Top Icons ============= -->
+		
+		<div class="icons">
+		<a href="#"><i class="fa fa-bars"></i></a>
+		<h1>MY MUSIC</h1>
+		<a href="#"><i class="fa fa-heart"></i></a>
+		</div>
+		
+		<!-- ============= img ============= -->
+		
+		<div class="img">
+		<img src="cover.jfif" alt=""/>
+		</div>
+		
+		<!-- ============= Title  ============= -->
+		
+		<div class="title">
+		<h1>MARSHAL'S MUSIC PLAYER</h1>
+		<p>Cool Artists - No Name</p>
+		</div>
+		
+		<!-- ============= Time ============= -->
+		
+		<div class="time">
+		00:00
+		<span></span>
+		00:00
+		</div>
+		
+		<!-- ============= Seek Bar ============= -->
+		
+		<div class="seek">
+		<div class="fill"></div>
+		</div>
+		
+		
+		</div>
+		
+		<!-- =============Audio Buttons ============= -->
+		<div class="audio-btns">
+		<div class="play-btns">
+		<a href="#"><i class="fa fa-backward" onclick="prevAudio()"></i></a>
+		<a href="#" class="play-pause" onclick="togglePlayPause()"><i class="fa fa-play"></i></a>
+		<a href="#"><i class="fa fa-forward" onclick="nextAudio()"></i></a>
+		</div>
+		<div class="repeat-btns">
+		<a href="#"><i class="fa fa-retweet"></i></a>
+		<span>
+		<button class="decrease" onclick="decreaseVolume()">-</button>
+		<a href="#" class="volume-up"><i class="fa fa-volume-up"  ></i></a>
+		<button class="increase" onclick="increaseVolume()">+</button>
+		</span>
+		<a href="#"><i class="fa fa-random"></i></a>
+		</div>
+		</div>
+		</div>
+		
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+		<script src="app.js"></script>
+	    </body>
+</html>
